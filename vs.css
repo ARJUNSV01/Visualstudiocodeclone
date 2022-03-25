@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+header{
+    background-color: #2c2c32;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#downloadbutton{
+    background-color: #0066B8;
+    border-radius: 0;
+   border: none;
+   font-size: 1em;
+   font-weight: 300;
+  
+}
+#drop{
+    border-radius: 0;
+    background-color: #0066B8;
+    border: none;
+    border-left: 0.1em solid #2c2c32;
+}
+#dialogue{
+    color: #cccccc;
+    
+    background-color: #25252B;
+    padding: 0;
+    width: 58%;
+    margin-left: 4.5em;
+    font-size: 0.9em;
+    margin-top: 1em;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.6em;
+    border-radius: 0.5em;
+}
+#termsandconditions{
+font-size: 0.8em;
+margin-top: 1em;
+margin-left:9em ;
+}
+#screenshot{
+    background-image: url(https://code.visualstudio.com/home/home-screenshot-win-lg.png);
+    background-size: cover;
+    background-position: center;
+    height: 40em;
+    box-shadow: 1px 1px 1px #2c2c32;
+    
+   
+}
+#icons{
+    font-size: 4em;
+}
+#btn button{
+    background-color: white;
+}
+#iconsdiv1{
+    color: #444444;
+    padding-top: 1em;
+    border: none;
+    
+}
+#iconsdiv2{
+    color: #444444;
+    padding-top: 1em;
+    border: none;
+    
+}
+#iconsdiv3{
+    color: #444444;
+    padding-top: 1em;
+    border: none;
+    
+}
+#iconsdiv4{
+    color: #444444;
+    padding-top: 1em;
+    border: none;
+    
+}
+#iconsdiv1:hover{
+    background-color:lightgray;
+    color: #0066B8;
+}
+#iconsdiv2:hover{
+    background-color:lightgray;
+    color:green;
+}
+#iconsdiv3:hover{
+    background-color:lightgray;
+    color: red;
+}
+#iconsdiv4:hover{
+    background-color:lightgray;
+    color: rgb(255, 196, 0);
+}
+#headingcontents{
+    font-weight: 300;
+    color: #444444;
+}
+#contents{
+    font-size: 1.5em;
+    color: #444444;
+}
+a{
+    text-decoration: none;
+    color: #0066B8;
+    
+}
+#languageicon{
+    height: 2em;
+    padding-left: 2em;
+    margin-left: 1em;
+    
+}
+#language{
+    color: #444444;
+    font-size: 1em;
+}
+footer{
+    color: #444444;
+    background-color: white;
+   
+}
+#topfooter{
+    text-align: center;
+    
+    
+}
+#bottomfooter{
+    background-color:#2c2c32;
+    color: #cccccc;
+    
+}
+#bottomfooter p{
+    display:inline-block;
+    margin-left: 0.9em;
+}
+#bottomfooter img{
+    height: 1.5em;
+    margin-left: em;
+}
+#bottomfooter p:hover{
+    color: violet;
+}
